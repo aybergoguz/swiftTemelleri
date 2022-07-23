@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+   
     @IBOutlet weak var birinciText: UITextField!
     @IBOutlet weak var ikinciText: UITextField!
     @IBOutlet weak var sonucLabel: UILabel!
