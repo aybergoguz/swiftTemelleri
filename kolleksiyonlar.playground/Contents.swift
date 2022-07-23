@@ -1,6 +1,6 @@
 import UIKit
 
-var ilkDizimiz = ["Atil","Ayberg","Bulent","Atlas","Hulya"]
+var ilkDizimiz = ["Atil","Ayberg","Hulya","Bulent","Atlas","Hulya"]
 for eleman in ilkDizimiz{
     print(eleman)
 }
@@ -29,3 +29,35 @@ numaralarDizisi.sort()
 
 var harflerDizisi = ["z","d","a","k","b","y"]
 harflerDizisi.sort()
+
+//Set
+
+var numaralar = [1,1,1,1,2,3,4,5,6]
+
+var numaraSeti : Set = [1,1,1,1,2,3,4,5,6]
+numaraSeti.popFirst()
+numaraSeti
+
+var ilkDizimizSeti = Set(ilkDizimiz)
+ilkDizimizSeti.count
+
+let birinciSet : Set = [40,50,60]
+let ikinciSet : Set = [50,60,70]
+
+let birlesimSeti = birinciSet.union(ikinciSet)
+
+let birlesimDizisi = Array(birlesimSeti)
+
+birlesimDizisi.sorted()
+
+// Dictionary
+// key-value pairing
+
+let meyveDizisi = ["Armut","Muz","Elma","Karpuz"]
+let KaloriDizisi = [100,150,120,300]
+
+var meyveKaloriDictionary = ["Armut" : 100,"Muz" : 150,"Elma" : 120, "Karpuz" : 300]
+meyveKaloriDictionary["Armut"]
+meyveKaloriDictionary.keys
+meyveKaloriDictionary.values
+meyveKaloriDictionary["Muz"] = 200
