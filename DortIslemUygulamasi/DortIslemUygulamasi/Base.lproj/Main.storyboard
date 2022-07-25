@@ -99,7 +99,7 @@
                     </view>
                     <connections>
                         <outlet property="birinciText" destination="743-l5-CsK" id="Zz4-OF-8Gl"/>
-                        <outlet property="ikinciText" destination="k3X-Ah-dor" id="O6q-O4-GRj"/>
+                        <outlet property="ikinciText" destination="k3X-Ah-dor" id="zmD-qM-gkM"/>
                         <outlet property="sonucLabel" destination="66R-z8-Wtg" id="rgJ-1l-SL7"/>
                     </connections>
                 </viewController>
